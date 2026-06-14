@@ -1,4 +1,5 @@
 export const portfolioData = {
+  
   hero: {
     name: "Spokyy",
     title: "Video Editor & Reel Creator",

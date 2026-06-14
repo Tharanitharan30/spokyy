@@ -14,12 +14,16 @@ function Navbar() {
 
     <div className="flex items-center gap-8">
 
-      <ul className="hidden md:flex gap-8 text-white">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#showreel">Showreel</a></li>
-        <li><a href="#reels">Reels</a></li>
-      </ul>
+      {portfolioData.navigation.map((item) => (
+          <a className="hidden md:flex text-white text-sm hover:text-yellow-400 transition"
+            key={item.title}
+            href={item.href}
+          >
+            {item.title}
+          </a>
+        ))}
+
+
 
       <a
         href={socials.instagram}

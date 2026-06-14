@@ -1,10 +1,14 @@
 @import "tailwindcss";
 
-body{
-  font-family: 'Montserrat', sans-serif;
-  background:black;
+html,
+body,
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-html{
-  scroll-behavior:smooth;
+body {
+  font-family: "Montserrat", sans-serif;
 }
