@@ -1,16 +1,130 @@
-# React + Vite
+# 🎬 Video Editor Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and cinematic portfolio website built for showcasing video editing, reel editing, showreels, and creative content production.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Cinematic Hero Section
+* Video Background Intro
+* About Section
+* Skills Showcase
+* Professional Statistics
+* Featured Showreel
+* Reel Portfolio Gallery
+* Responsive Design
+* Smooth Animations
+* Instagram Integration
+* Data-Driven Architecture
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the ESLint configuration
+* React
+* Vite
+* Tailwind CSS
+* Framer Motion
+* React Icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Design
+
+* Responsive Layout
+* Dark Cinematic Theme
+* Mobile Friendly UI
+* Modern Portfolio Experience
+
+## Project Structure
+
+```text
+src
+│
+├── components
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Stats.jsx
+│   ├── Skills.jsx
+│   ├── Showreel.jsx
+│   └── Reels.jsx
+│
+├── data
+│   └── portfolioData.js
+│
+├── App.jsx
+└── main.jsx
+
+public
+│
+├── video
+├── img
+└── spokyy_intro.mp4
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Navigate into the project:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Build production version:
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+## Configuration
+
+All portfolio content can be managed from:
+
+```text
+src/data/portfolioData.js
+```
+
+Update:
+
+* Hero Content
+* About Section
+* Skills
+* Statistics
+* Showreel
+* Reels
+* Social Media Links
+
+without modifying component files.
+
+## Portfolio Sections
+
+1. Hero
+2. About
+3. Statistics
+4. Skills
+5. Featured Showreel
+6. Reels Portfolio
+7. Social Links
+

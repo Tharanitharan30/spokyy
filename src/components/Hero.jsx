@@ -6,7 +6,7 @@ import { portfolioData } from "../data/portfolioData";
 function Hero() {
     const { hero } = portfolioData;
   return (
-    <section className="relative h-screen overflow-hidden">
+    <section className="relative min-h-screen overflow-hidden">
       
       {/* Background Video */}
       <video
@@ -14,7 +14,17 @@ function Hero() {
         loop
         muted
         playsInline
-        className="absolute w-full h-full object-cover"
+        preload="auto"
+        className="
+          absolute
+          inset-0
+          w-full
+          h-full
+          object-cover
+          object-center
+          scale-105
+          md:scale-100
+          "
       >
         <source src={hero.heroVideo} type="video/mp4" />
       </video>
