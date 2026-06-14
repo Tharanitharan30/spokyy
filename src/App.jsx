@@ -1,10 +1,22 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Stats from "./components/Stats";
+import Skills from "./components/Skills";
+import Reels from "./components/Reels";
+import Socials from "./components/Socials";
+
 function App() {
   return (
-    <div className="bg-black text-white h-screen flex items-center justify-center">
-      <h1 className="text-5xl font-bold">
-        Photographer Portfolio
-      </h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Stats />
+      <Skills />
+      <Reels />
+      <Socials />
+    </>
   );
 }
 
